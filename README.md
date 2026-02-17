@@ -146,5 +146,66 @@ This modeling step helps understand the relationship between communication behav
 
 ---
 
-## Project Structure
 
+## How to Run
+
+1. Open `Employee_Sentiment_Analysis.ipynb`
+2. Run all cells sequentially from top to bottom.
+3. Review the generated visualizations and model outputs.
+
+All steps are reproducible from raw dataset to final outputs.
+
+---
+
+## Dependencies
+
+The project requires the following Python libraries:
+
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- textblob  
+- scikit-learn  
+
+Install using:
+
+```bash
+pip install pandas numpy matplotlib seaborn textblob scikit-learn
+
+If using Google Colab:
+
+!pip install textblob
+!python -m textblob.download_corpora
+
+Reproducibility
+
+Sentiment labeling logic is rule-based and deterministic.
+
+Monthly aggregation methodology is clearly defined.
+
+Model training uses a fixed random state for consistency.
+
+Code is fully documented and structured for clarity.
+
+All outputs can be reproduced from the raw dataset.
+
+Conclusion
+
+This project successfully:
+
+Labeled sentiment for employee emails
+
+Identified engagement trends
+
+Ranked employees by monthly performance
+
+Flagged potential flight risks
+
+Built a predictive regression model
+
+The framework can be extended for real-time HR analytics and employee engagement monitoring systems.
+
+Author
+
+Sai Likhitha Gaddam
