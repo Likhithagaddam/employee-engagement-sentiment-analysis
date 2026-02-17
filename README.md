@@ -172,40 +172,42 @@ Install using:
 
 ```bash
 pip install pandas numpy matplotlib seaborn textblob scikit-learn
-
+```
 If using Google Colab:
 
+```bash
 !pip install textblob
 !python -m textblob.download_corpora
+```
 
-Reproducibility
+## Reproducibility
 
-Sentiment labeling logic is rule-based and deterministic.
+- Sentiment labeling logic is rule-based and deterministic.
 
-Monthly aggregation methodology is clearly defined.
+- Monthly aggregation methodology is clearly defined.
 
-Model training uses a fixed random state for consistency.
+- Model training uses a fixed random state for consistency.
 
-Code is fully documented and structured for clarity.
+- Code is fully documented and structured for clarity.
 
-All outputs can be reproduced from the raw dataset.
+- All outputs can be reproduced from the raw dataset.
 
-Conclusion
+## Conclusion
 
 This project successfully:
 
-Labeled sentiment for employee emails
+- Labeled sentiment for employee emails
 
-Identified engagement trends
+- Identified engagement trends
 
-Ranked employees by monthly performance
+- Ranked employees by monthly performance
 
-Flagged potential flight risks
+- Flagged potential flight risks
 
-Built a predictive regression model
+- Built a predictive regression model
 
-The framework can be extended for real-time HR analytics and employee engagement monitoring systems.
+- The framework can be extended for real-time HR analytics and employee engagement monitoring systems.
 
-Author
+## Author
 
 Sai Likhitha Gaddam
